@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wanda halimatu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-02-22 10:31:16 AM"/>
+        <attribute name="created" value="d2FuZGEgaGFsaW1hdHU7TEFQVE9QLVYyU1Y2QTkxOzIwMjMtMDItMjI7MTA6Mjk6NTUgQU07MzcxMQ=="/>
+        <attribute name="edited" value="d2FuZGEgaGFsaW1hdHU7TEFQVE9QLVYyU1Y2QTkxOzIwMjMtMDItMjI7MTA6MzE6MTYgQU07MTszODA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, max" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="a" newline="True"/>
+                </then>
+                <else>
+                    <output expression="b" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
